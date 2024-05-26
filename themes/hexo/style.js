@@ -8,7 +8,7 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-image: url('../../../public/bg_image.jpg');
+        background-image: url('https://github.com/03jia/NotionNext/blob/ba07460cd577a7e10fa2bc923e9c0fc8429af626/public/bg_image.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
