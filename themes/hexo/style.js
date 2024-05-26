@@ -8,7 +8,7 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-image: url('/public/bg_image.jpg');
+        background-image: url(/public/bg_image.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
