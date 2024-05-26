@@ -8,10 +8,10 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-image: url(/public/bg_image.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-image: url('public/bg_image.jpg') !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-attachment: fixed !important;
     }
     .dark body{
         background-color: black;
